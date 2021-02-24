@@ -12,7 +12,7 @@ async function Actual_Bubble_Sort()
         array[j].style.backgroundColor="red";
         array[j+1].style.backgroundColor="red";
 
-        await new Promise((resolve,reject) =>   //Promises can support async but not a function.
+        await new Promise((resolve,reject) =>   
             setTimeout(() => {
               resolve('');
             }, parseInt(speed.value))
